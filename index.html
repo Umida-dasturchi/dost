@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qunt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(./photo_2025-09-28_14-30-15.jpg) no-repeat center center;
+            background-size: cover;
+            filter: blur(.25rem);
+            z-index: -1;
+            transform: scale(1.1);
+        }
+
+        header {
+            font-size: 5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            text-shadow: .125rem .125rem .5rem rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.25rem;
+            padding: 0.5rem 1rem;
+            border: .0625rem solid rgba(255, 255, 255, 0.5);
+            border-radius: 0.5rem;
+            backdrop-filter: blur(.125rem);
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>Qunt</header>
+    <nav>
+        <a href="160verbs.html" target="_blank">160 fe'l</a>
+        <a href="96adj.html" target="_blank">96 sifat</a>
+        <a href="64adv.html" target="_blank">64 ravish</a>
+        <a href="216n.html" target="_blank">216 ot</a>
+        <a href="pronouns.html" target="_blank">Olmosh</a>
+        <a href="characters.html" target="_blank">Personajlar</a>
+    </nav>
+</body>
+</html>
